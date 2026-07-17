@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'io.github.txtchapterdetector.demo'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'io.github.txtchapterdetector.demo'
+        minSdk 23
+        targetSdk 36
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
